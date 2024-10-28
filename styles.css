@@ -73,7 +73,7 @@ nav ul li a:hover {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: #fff;
+    color: #000000;
     text-align: center;
 }
 
@@ -171,23 +171,6 @@ nav ul li a:hover {
     color: #e64a19;
 }
 
-/* Formulário de Contato */
-#contact form {
-    max-width: 600px;
-    margin: 3em auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-#contact input, #contact textarea {
-    padding: 0.8em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
 /* Rodapé */
 footer {
     text-align: center;
@@ -216,6 +199,9 @@ body.dark-mode .swiper-slide {
     color: #e0e0e0;
 }
 
+body.dark-mode #hero {
+    color: #ffffff
+}
 
 body.dark-mode footer {
     background-color: rgba(18, 18, 18, 0.5);
