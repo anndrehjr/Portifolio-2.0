@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de [Seu Nome]</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Animação on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> <!-- CSS AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> <!-- SwiperJS CSS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- SwiperJS JS -->
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button id="theme-toggle">Alternar Tema</button>
+        </nav>
+    </header>
+
+    <!-- Seção Hero com Parallax -->
+    <section id="hero" class="parallax">
+        <div class="hero-content">
+            <h2>Olá, sou André Junior</h2>
+            <p>Desenvolvedor Front-end e entusiasta de tecnologia Full Stack.</p>
+            <a href="#projects" class="cta">Veja meus Projetos</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" data-aos="fade-up">
+        <div class="glass-container">
+            <h3>Sobre Mim</h3>
+            <p>Descrição breve sobre suas habilidades e experiências. Domina tecnologias como PHP, JavaScript, React, etc.</p>
+            <a href="#" class="cta">Baixar Currículo</a>
+        </div>
+    </section>
+
+    <!-- Projetos com Carrossel SwiperJS -->
+    <section id="projects" data-aos="fade-up">
+        <h3>Projetos</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide do Projeto 1 -->
+                <div class="swiper-slide glass-container">
+                    <img src="1.png" alt="Imagem do Projeto 1" class="project-image">
+                    <h4>Help 2.0</h4>
+                    <p>Interação com Mensagens 💬 </p>
+                    <a href="https://github.com/anndrehjr/Helper-?tab=readme-ov-file" target="_blank">Veja no GitHub</a>
+                </div>
+                
+                <!-- Slide do Projeto 2 -->
+                <div class="swiper-slide glass-container">
+                    <img src="2.png" alt="Imagem do Projeto 2" class="project-image">
+                    <h4>Projeto 2</h4>
+                    <p>Jogo-da-memoria ❤️</p>
+                    <a href="https://github.com/anndrehjr/Jogo-da-memoria" target="_blank">Veja no GitHub</a>
+                </div>
+
+                <div class="swiper-slide glass-container">
+                    <img src="3.png" alt="Imagem do Projeto 3" class="project-image">
+                    <h4>Projeto </h4>
+                    <p>Este é um projeto simples de sistema de cadastro de usuários🎨</p>
+                    <a href="https://github.com/anndrehjr/Loguin_completo" target="_blank">Veja no GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Botões de Navegação do Carrossel -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
