@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de [Seu Nome]</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Animação on Scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> <!-- CSS AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> <!-- SwiperJS CSS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- SwiperJS JS -->
+    <link rel="stylesheet" href="modos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="scripts.js" defer></script>
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
         <nav>
             <ul>
@@ -24,7 +24,6 @@
         </nav>
     </header>
 
-    <!-- Seção Hero com Parallax -->
     <section id="hero" class="parallax">
         <div class="hero-content">
             <h2>Olá, sou André Junior</h2>
@@ -33,7 +32,6 @@
         </div>
     </section>
 
-    <!-- Sobre -->
     <section id="about" data-aos="fade-up">
         <div class="glass-container">
             <h3>Sobre Mim</h3>
@@ -42,12 +40,10 @@
         </div>
     </section>
 
-    <!-- Projetos com Carrossel SwiperJS -->
     <section id="projects" data-aos="fade-up">
         <h3>Projetos</h3>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <!-- Slide do Projeto 1 -->
                 <div class="swiper-slide glass-container">
                     <img src="1.png" alt="Imagem do Projeto 1" class="project-image">
                     <h4>Help 2.0</h4>
@@ -55,7 +51,6 @@
                     <a href="https://github.com/anndrehjr/Helper-?tab=readme-ov-file" target="_blank">Veja no GitHub</a>
                 </div>
                 
-                <!-- Slide do Projeto 2 -->
                 <div class="swiper-slide glass-container">
                     <img src="2.png" alt="Imagem do Projeto 2" class="project-image">
                     <h4>Projeto 2</h4>
@@ -65,20 +60,34 @@
 
                 <div class="swiper-slide glass-container">
                     <img src="3.png" alt="Imagem do Projeto 3" class="project-image">
-                    <h4>Projeto </h4>
-                    <p>Este é um projeto simples de sistema de cadastro de usuários🎨</p>
+                    <h4>Projeto</h4>
+                    <p>Este é um projeto simples de sistema de cadastro de usuários 🎨</p>
                     <a href="https://github.com/anndrehjr/Loguin_completo" target="_blank">Veja no GitHub</a>
                 </div>
             </div>
             
-            <!-- Botões de Navegação do Carrossel -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
     </section>
-    <!-- Rodapé -->
     <footer>
         <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
     </footer>
+        
+    
 </body>
 </html>
