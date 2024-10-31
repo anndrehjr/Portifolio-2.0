@@ -260,7 +260,7 @@ body.dark-mode .cta {
 
 body.dark-mode .glass-container, 
 body.dark-mode .swiper-slide {
-    background: rgba(40, 40, 40, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #e0e0e0;
 }
 
